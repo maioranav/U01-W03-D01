@@ -217,19 +217,19 @@ console.log(longest(stringeLunghe));
  La funzione deve ritornare true se "emailContent" non contiene le parole "SPAM" o "SCAM".
 */
 
-/* console.log("-------------- EXTRA 9 --------------");  //INIZIATO MA NON COMPLETATO (da non prendere completamente in considerazione, ancora non ha logica funzionale per la ricerca della parola)
+console.log("-------------- EXTRA 9 --------------");
 
-const contenuto = "Sicuramente questo è un messaggio SCAM";
+const contenuto = "Sicuramente questo è un SPAM messaggio";
 
 function antiSpam(emailContent) {
-  if (emailContent === "SPAM") {
+  if (emailContent.indexOf("SPAM") >= 0 || emailContent.indexOf("SCAM") >= 0) {
     return true;
   } else {
     return false;
   }
 }
 
-console.log(antiSpam(contenuto)); */
+console.log(antiSpam(contenuto));
 
 /* EXTRA 10
  Scrivi una funzione che riceve una data come parametro, e calcola il numero di giorni passati da quella data.
