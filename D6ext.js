@@ -235,7 +235,11 @@ console.log(antiSpam(contenuto));
  Scrivi una funzione che riceve una data come parametro, e calcola il numero di giorni passati da quella data.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log("-------------- EXTRA 10 --------------");
+
+const dataAttuale = Date();
+
+console.log("Data attuale:", dataAttuale);
 
 /* EXTRA 11
  Scrivi una funzione chiamata "matrixGenerator" che riceve come paremetri due numeri interi, "x" e "y".
