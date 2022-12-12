@@ -144,6 +144,8 @@ console.log(check3and7(14));
 console.log("-------------- ESERCIZIO 7 --------------");
 
 function reverseString(stringa) {
+  /* stringa.split(``).revers().join(``) */ //alternativa compatta
+
   const arrayChars = [];
   for (let i = 0; i < stringa.length; i++) {
     arrayChars.unshift(stringa.charAt(i));
